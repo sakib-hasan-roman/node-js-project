@@ -3,7 +3,7 @@ const url =
   process.env.SERVER_MOOD == "development"
     ? process.env.DEVELOPMENT_DB
     : process.env.PRODUCTION_DB;
-console.log(url);
+    
 //Now connect Mongodb .......
 const connectDB = async () => {
   try {
